@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordFinder5000.ConsoleApp", "src\WordFinder5000.ConsoleApp\WordFinder5000.ConsoleApp.csproj", "{D30D6DBF-0F28-4FB9-B43F-4ADD11D3B63D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordFinder5000.Tests", "src\WordFinder5000.Tests\WordFinder5000.Tests.csproj", "{342FFCCD-3D28-4958-B255-0DB2D0523315}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordFinder5000.Core", "src\WordFinder5000.Core\WordFinder5000.Core.csproj", "{120486EF-7829-4D0C-9B01-5315B064FD77}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D30D6DBF-0F28-4FB9-B43F-4ADD11D3B63D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D30D6DBF-0F28-4FB9-B43F-4ADD11D3B63D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D30D6DBF-0F28-4FB9-B43F-4ADD11D3B63D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D30D6DBF-0F28-4FB9-B43F-4ADD11D3B63D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{342FFCCD-3D28-4958-B255-0DB2D0523315}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{342FFCCD-3D28-4958-B255-0DB2D0523315}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{342FFCCD-3D28-4958-B255-0DB2D0523315}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{342FFCCD-3D28-4958-B255-0DB2D0523315}.Release|Any CPU.Build.0 = Release|Any CPU
+		{120486EF-7829-4D0C-9B01-5315B064FD77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{120486EF-7829-4D0C-9B01-5315B064FD77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{120486EF-7829-4D0C-9B01-5315B064FD77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{120486EF-7829-4D0C-9B01-5315B064FD77}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
