@@ -11,7 +11,6 @@ namespace WordFinder5000.Core
 
     public class FileParser : IFilerParser
     {
-       
         public List<string> Parse(string content)
         {
             if (string.IsNullOrWhiteSpace(content))

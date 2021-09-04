@@ -4,7 +4,7 @@ namespace WordFinder5000.Core
 {
     public static class SpecialCharacters
     {
-        public static List<char> Apostrophes => new List<char> { '\'', '’' }; // this is ' and ’ single quote and apostrophe 
+        public static List<char> Apostrophes => new List<char> { '\'', '’' }; // single quote and apostrophe 
 
         public static List<string> NotAllowed => new List<string>
         {

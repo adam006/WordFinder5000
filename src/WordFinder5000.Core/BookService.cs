@@ -55,7 +55,7 @@ namespace WordFinder5000.Core
         private Dictionary<string, int> GetWordCounts(List<string> content)
         {
             var wordCounts = new Dictionary<string, int>();
-            
+
             foreach (var word in content)
             {
                 var lower = word.ToLower();

@@ -118,7 +118,9 @@ namespace WordFinder5000.Tests
         public void Parse_SpecialCharacterBeforeWord_ShouldCountWord()
         {
             var content = string.Join(' ',
-                _wordList.Select(s => s = SpecialCharacters.NotAllowed[_faker.Random.Int(0, SpecialCharacters.NotAllowed.Count - 1)] + s));
+                _wordList.Select(s =>
+                    s = SpecialCharacters.NotAllowed[_faker.Random.Int(0, SpecialCharacters.NotAllowed.Count - 1)] +
+                        s));
 
             var result = _filerParser.Parse(content);
 

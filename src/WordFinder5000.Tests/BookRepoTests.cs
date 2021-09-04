@@ -23,10 +23,10 @@ namespace WordFinder5000.Tests
         public BookRepoTests()
         {
             _faker = new Faker();
-            
+
             _testData = _faker.Random.String2(10);
             _url = _faker.Internet.Url();
-            
+
             _httpMessageHandlerMock = new Mock<HttpMessageHandler>();
 
             _httpMessageHandlerMock.Protected()
@@ -53,7 +53,7 @@ namespace WordFinder5000.Tests
         [Fact]
         public async Task GetBook_InvalidUrl_ShouldThrowInvalidOperationException()
         {
-            Func<Task> func = async () =>  await _bookRepo.GetBookAsync(_faker.Random.String2(10));
+            Func<Task> func = async () => await _bookRepo.GetBookAsync(_faker.Random.String2(10));
 
             await func.Should().ThrowAsync<InvalidOperationException>();
         }

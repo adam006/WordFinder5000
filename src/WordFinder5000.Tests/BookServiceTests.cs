@@ -169,12 +169,13 @@ namespace WordFinder5000.Tests
         [Fact]
         public async Task GetTopWords_ShouldRemoveSuffixWhenApostrophe_ShouldCountAsSameWord()
         {
-            var wordList = new List<string> { "ship", "ship's", "ship’s", "ship're", "Ahab", "Ahab’s", "Ahab'nt", "something", "else" };
+            var wordList = new List<string>
+                { "ship", "ship's", "ship’s", "ship're", "Ahab", "Ahab’s", "Ahab'nt", "something", "else" };
 
             var content = string.Join(' ', wordList);
 
             _appSettings.TopWordCount = 2;
-            
+
             _bookRepo.Setup(s => s.GetBookAsync(_url)).ReturnsAsync(content);
             _filerParser.Setup(s => s.Parse(content)).Returns(wordList);
 
